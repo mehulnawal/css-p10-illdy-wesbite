@@ -1,0 +1,217 @@
+/* laptop, mini laptop */
+@media (max-width: 1399px) {
+  header {
+    height: 140vh;
+  }
+
+  .header2 h1 {
+    font-size: 4rem;
+  }
+
+  .header2 p {
+    font-size: 18px;
+  }
+
+  .header-icons a {
+    padding: 10px 60px;
+  }
+}
+
+/* tablet  */
+@media (max-width: 991px) {
+  
+
+  .col-tb-12 {
+    width: 100%;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .yellow-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #clients,
+  #coffes {
+    margin-top: 20px;
+  }
+
+  #clients::before,
+  #coffes::before {
+    display: none;
+  }
+
+  .col-tb-6 {
+    width: 50%;
+  }
+
+  .t1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+
+  .t1 img {
+    margin-bottom: 20px;
+  }
+
+  .header2 p {
+    width: 80%;
+  }
+
+  .about p {
+    width: 80%;
+  }
+
+  .yellow-inner{
+    width: 0px;
+  }
+}
+
+/* mobile horizontal */
+@media (max-width: 757px) {
+  .fa-bars {
+    display: block;
+    font-size: 25px;
+    color: white;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header2 h1 {
+    width: 70%;
+    text-align: center;
+  }
+
+  .about-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-mh-6 {
+    width: 50%;
+  }
+
+  .customer,
+  .links {
+    margin-top: 100px;
+  }
+}
+
+/* mobile vertical */
+@media (max-width: 575px) {
+  header {
+    height: 100vh;
+  }
+
+  .col-mv-12 {
+    width: 100%;
+  }
+
+  .header-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-icons a:first-child {
+    margin-bottom: 20px;
+  }
+
+  .service-inner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .box i {
+    margin-top: 20px;
+  }
+
+  .n2,
+  .n3 {
+    margin-top: 30px;
+  }
+
+  .customer,
+  .links {
+    margin-top: 30px;
+  }
+
+  .address-box {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .address-bar {
+    display: none;
+  }
+
+  .address,
+  .customer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-inner h2 {
+    margin-top: 20px;
+  }
+
+  .header2 h1 {
+    font-size: 2rem;
+  }
+
+  .project {
+    padding: 0xp;
+  }
+
+  .t1 {
+    margin-top: 30px;
+  }
+
+  .pr2,
+  .pr3,
+  .pr4 {
+    margin-top: 20px;
+  }
+
+  .test-inner {
+    width: 100%;
+  }
+
+  .fa-caret-down {
+    left: 45%;
+  }
+
+  .pr-dot {
+    left: 45%;
+    bottom: 0px;
+  }
+}
